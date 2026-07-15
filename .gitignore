@@ -1,0 +1,32 @@
+# Build artifacts
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Coverage
+*.out
+coverage.html
+
+# Go workspace / vendoring
+vendor/
+go.work
+go.work.sum
+
+# Env / secrets
+.env
+.env.*
+
+# Node runtime data (raftnode --data-dir default)
+data/
+*/data/
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
